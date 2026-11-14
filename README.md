@@ -1,5 +1,4 @@
 # Smart Home
-
 ## Live Demo
 
 [Open Smart Home Application](https://smart-home-web-appli-kikq.bolt.host)
@@ -39,6 +38,16 @@ Each event gets exactly one category, derived from its type plus the current dev
 3. **Informational** — normal operation. Movement detections and completed software updates land here.
 
 Recommendations follow the first matching deterministic rule: offline → critical action needed; battery below 20% → battery warning; other active alerts → attention needed; recovered issues → reassure that no action is necessary; otherwise → "no action is currently required". The dashboard never claims the home is "secure" — it only states what the available device data supports.
+
+### Notable Events
+
+The Notable Events metric counts noteworthy non-routine
+events, including recovered connectivity interruptions
+and completed software updates.
+
+It is separate from Active Alerts, which only counts
+issues that are currently unresolved. Routine movement
+detections are excluded from the notable event count.
 
 ## Technology stack
 
