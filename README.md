@@ -1,5 +1,9 @@
 # Smart Home
 
+## Live Demo
+
+[Open Smart Home Application](https://smart-home-web-appli-kikq.bolt.host)
+
 A web application that helps a user understand what happened at home while they were away. It turns raw smart-home device events into a clear plain-language summary, highlights the events that deserve attention, and recommends useful next actions.
 
 This is an interactive product prototype. All data is simulated demo data; nothing reflects real sensor readings or a real device.
